@@ -1,0 +1,10 @@
+1.What is jira?
+
+Ans:Jira is a project management tool,It provides bug tracking, issue tracking,
+and project DELIVERY management.
+
+
+project delivery management :- industry calls it as scrum master
+---------------------------------------------------------------
+who will be scrum master?
+ans# project manager/team lead

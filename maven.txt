@@ -1,0 +1,36 @@
+What is maven
+-------------
+Maven is a build automation tool used primarily for Java projects.
+
+1.Maven life cycle
+-------------------
+Validate:- Runs checks to ensure that the project is correct and
+that all dependencies are downloaded and available.
+
+Compile:- Compiles the source code.
+Test: Runs unit tests using frameworks. This step doesn’t
+require that the application be packaged.
+
+Package:- Assembles compiled code into a distributable format,
+such as JAR or WAR.
+
+Install:- Installs the packaged archive into a local repository.
+The archive is now available for use by any project running on
+that machine.
+
+Deploy:- Pushes the built archive into a remote repository for
+use by other teams and team members.
+
+Because the default life cycle clearly defines the ordering of the phases, you
+can generate an artifact simply by running the command mvn package. Maven will
+automatically execute all of the phases prior to the requested phase
+
+2.What is maven repository
+--------------------------
+The maven local repository is a local folder 
+that is used to store all your project's dependencies
+
+3.What is maven pom
+-------------------
+A Project Object Model or POM is the fundamental unit of work in Maven.
+ It is an XML file that contains information about the project and configuration details
